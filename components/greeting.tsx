@@ -7,7 +7,7 @@ type Props = {}
 const Greeting = (props: Props) => {
 	return (
 		<section className="w-full lg:h-[80vh] relative flex lg:flex-row justify-between gap-20 container sx:flex-col-reverse sx:h-[160vh]">
-			<div className="lg:w-[45%] sx:w-[80%] sx:mx-auto lg:mx-0 h-full flex flex-col justify-center lg:items-start sx:items-center  gap-8 sm:w-full">
+			<div className="lg:w-[45%] sx:w-[80%] sx:mx-auto lg:mx-0 h-full flex flex-col justify-start mt-28 lg:items-start sx:items-center  gap-8 sm:w-full">
 				<h1 className="sx:text-[3.2em] lg:text-[3.6em] lg:text-left sx:text-center">
 					Bring everyone together to build better products.
 				</h1>
