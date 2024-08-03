@@ -1,7 +1,6 @@
 /* eslint-disable @next/next/no-img-element */
 import Button from './ui/button'
 import Tablet from './icons/tablet'
-import Illustration from './icons/illustration'
 
 type Props = {}
 
@@ -22,7 +21,6 @@ const Greeting = (props: Props) => {
 				<Tablet className="absolute z-[-1] top-[-17rem] left-12 " />
 				<div className="w-full">
 					<img src="/illustration-intro.svg" alt="" />
-					{/* <Illustration className="w-full h-full " /> */}
 				</div>
 			</div>
 			<Tablet className="lg:hidden sx:block absolute z-[-1] top-[39rem] left-[17rem] " />
