@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 import Button from './ui/button'
 import Tablet from './icons/tablet'
 import Illustration from './icons/illustration'
@@ -6,8 +7,8 @@ type Props = {}
 
 const Greeting = (props: Props) => {
 	return (
-		<section className="w-full lg:h-[80vh] relative flex lg:flex-row justify-between gap-20 container sx:flex-col-reverse sx:h-[160vh]">
-			<div className="lg:w-[45%] sx:w-full sx:mx-auto lg:mx-0 h-full flex flex-col justify-start mt-28 lg:items-start sx:items-center  gap-8 sm:w-full">
+		<section className="w-full lg:h-[80vh] relative flex lg:flex-row justify-between lg:gap-20 sx:gap-8 container sx:flex-col-reverse sx:h-[110vh]">
+			<div className="lg:w-[45%] sx:w-full sx:mx-auto lg:mx-0 h-full flex flex-col justify-start lg:mt-28 sx:mt-0 lg:items-start sx:items-center  lg:gap-8 sx:gap-4 sm:w-full">
 				<h1 className="sx:text-[2.4em] lg:text-[3.6em] lg:text-left sx:text-center">
 					Bring everyone together to build better products.
 				</h1>
@@ -20,7 +21,8 @@ const Greeting = (props: Props) => {
 			<div className="lg:w-[50%] sx:w-full h-full flex justify-center relative lg:pt-20 sx:p-0 ">
 				<Tablet className="absolute z-[-1] top-[-17rem] left-12 " />
 				<div className="w-full">
-					<Illustration className="w-full h-full " />
+					<img src="/illustration-intro.svg" alt="" />
+					{/* <Illustration className="w-full h-full " /> */}
 				</div>
 			</div>
 			<Tablet className="lg:hidden sx:block absolute z-[-1] top-[39rem] left-[17rem] " />
