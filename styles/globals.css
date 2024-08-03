@@ -18,8 +18,7 @@
 		line-height: 3rem;
 	}
 	h3 {
-		font-size: 1.1em;
-		font-weight: 700;
+		@apply lg:text-[1.1em] font-bold sx:text-[0.9em];
 	}
 	p {
 		line-height: 1.6;
@@ -29,7 +28,7 @@
 
 @layer components {
 	.container {
-		@apply px-8 w-full max-w-[1440px] mx-auto;
+		@apply lg:px-8 sx:p-4 w-full max-w-[1440px] mx-auto;
 	}
 	.button {
 		@apply w-40 h-12  rounded-[2rem]  text-md shadow-3xl;

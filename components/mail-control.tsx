@@ -44,7 +44,7 @@ const MailControl = (props: Props) => {
 	}
 
 	return (
-		<div className="w-[100%] lg:h-[80%]  md:m-auto sx:w-full sx:h-[10rem]">
+		<div className="w-[100%] lg:h-[80%]  md:m-auto sx:w-full sx:h-[8rem]">
 			<form
 				action=""
 				onSubmit={handleSubmit}

@@ -8,7 +8,7 @@ type Props = {}
 const Footer = (props: Props) => {
 	return (
 		<footer className="w-full lg:h-[15rem] bg-blue-300 text-white sx:h-[100vh] sx:p-4">
-			<div className="container h-full py-12 flex lg:flex lg:flex-row gap-4 justify-between items-center sx:flex-col-reverse">
+			<div className="container px-0 h-full py-12 flex lg:flex lg:flex-row gap-4 justify-between items-center sx:flex-col-reverse">
 				<p className="lg:hidden sx:block text-sm">Copyright 2020. All Rights Reserved</p>
 				<div className="w-[60%] h-full flex lg:flex-row justify-between sx:w-full sx:flex-col-reverse sx:items-center ">
 					<div className="lg:w-[23%] lg:h-full flex  lg:flex-col justify-between py-2 sx:h-[10rem] sx:items-center sx:w-full sx:flex-col-reverse">

@@ -13,8 +13,6 @@ type Props = {}
 const Header = (props: Props) => {
 	const [isOpen, setIsOpen] = useState(false)
 
-	console.log(isOpen)
-
 	return (
 		<header className="w-full h-36 relative">
 			<Shell className=" container h-full  flex justify-between items-center relative">
