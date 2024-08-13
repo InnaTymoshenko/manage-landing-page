@@ -60,6 +60,7 @@ const config: Config = {
 				'3xl': '0px 26px 34px -19px hsl(12, 88%, 59%)'
 			},
 			backgroundImage: {
+				'gradient-modal': 'linear-gradient(180deg,hsl(12, 88%, 59%, 10%),hsl(228, 39%, 23%, 40%) )',
 				'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
 				'gradient-conic': 'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))'
 			}

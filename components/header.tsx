@@ -22,7 +22,7 @@ const Header = (props: Props) => {
 				<div
 					className={`lg:hidden  ${
 						isOpen
-							? 'sx:flex sx:justify-center sx:w-screen z-[5] sx:h-screen sx:bg-blue-200/30 absolute top-0 left-0'
+							? 'sx:flex sx:justify-center sx:w-screen z-[5] sx:h-screen sx:bg-gradient-modal absolute top-0 left-0'
 							: 'sx:hidden'
 					} `}
 				>
