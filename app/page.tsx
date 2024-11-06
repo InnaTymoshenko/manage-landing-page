@@ -5,11 +5,11 @@ import PageBottom from '@/components/page-bottom'
 
 export default function Home() {
 	return (
-		<div className="w-screen relative flex min-h-screen flex-col items-center justify-between gap-8 ">
+		<main className="w-screen relative flex min-h-screen flex-col items-center justify-between gap-8">
 			<Greeting />
 			<About />
 			<Comments />
 			<PageBottom />
-		</div>
+		</main>
 	)
 }

@@ -15,9 +15,9 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
 	return (
 		<html lang="en">
 			<body className={beVietnamPro.className}>
-				<div className="overflow-x-hidden">
+				<div className="overflow-x-hidden w-full h-full relative">
 					<Header />
-					<main>{children}</main>
+					{children}
 					<Footer />
 				</div>
 			</body>

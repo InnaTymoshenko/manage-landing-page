@@ -6,9 +6,6 @@
 	body {
 		@apply bg-white text-lg text-primary  h-[100%] overflow-x-hidden;
 	}
-	main {
-		@apply min-h-[100vh] flex flex-col justify-between gap-20 mt-8;
-	}
 	h1 {
 		font-weight: 700;
 		line-height: 4rem;
